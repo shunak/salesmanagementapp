@@ -1,0 +1,189 @@
+﻿body{
+    font-family:"Meiryo";
+    font-size: 1.0em;
+}
+
+h1{
+    display: inline-block;
+    font-size: 1.2em;
+    border-left: 40px solid darkkhaki;
+    border-right:40px solid darkkhaki;
+    padding:0 4px;
+}
+
+.EntryRow{
+    
+}
+
+.EntryRow p{
+    float: left;
+    margin-left: 10px;
+}
+
+.clearFloat{
+    clear:both;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    font-weight: normal;
+    border-bottom: 1px green solid;
+}
+
+td{
+    padding: 2px 10px;
+    border-bottom: 1px green solid;
+}
+
+td form{
+    padding: 0;
+    margin: 0;
+}
+
+.num_area{
+    text-align: right;
+}
+
+/*------------ table -------------------*/
+
+#goodsTable td:nth-child(3){
+    text-align: right;
+    width: 50px;
+}
+
+#detail td:nth-child(5){
+    text-align: right;
+    width: 50px;
+}
+
+#detail td:nth-child(6){
+    text-align: right;
+    width: 50px;
+}
+
+#detail td:nth-child(7){
+    text-align: right;
+    width: 80px;
+}
+
+#entryslip{
+  margin-top: 20px;
+}
+
+#entryslip td:nth-child(5){
+    text-align: right;
+    width: 50px;
+}
+
+#entryslip td:nth-child(6){
+    text-align: right;
+    width: 50px;
+}
+
+#entryslip td:nth-child(7){
+    text-align: right;
+    width: 80px;
+}
+
+/*-------------------------------*/
+#menu ul{
+    list-style-type: none;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color:blue;
+    background-color: beige;
+    padding:4px 10px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    color:darkkhaki;
+}
+
+/*-----------------------------------
+    salesinfo.php
+------------------------------------*/
+#search form{
+    display: inline-block;
+}
+
+#totalAmount{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#sliplist{
+    background-color: khaki;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+#detail{
+    background-color: lavender ;
+    padding:10px;
+}
+
+#detail{
+    margin-top: 30px;
+}
+/*-----------------------------------
+    goods.php  /  customer.php
+------------------------------------*/
+#entry , #update{
+    border:green 1px solid;
+    padding: 20px 5px;
+
+}
+
+#entry{
+    background-color: #eee8aa;    
+}
+
+#update{
+    background-color: darkseagreen;
+}
+
+#entry label , #update label{
+    display:  inline-block;
+}
+
+#entry h2, #update h2{
+    padding:0;
+    margin:0 0 10px 0;
+    font-weight: normal;
+}
+
+.recordlist{
+    margin-top: 40px;
+}
+
+.entrylabel{
+    display:inline-block;
+}
+
+.hideArea{
+    display:none;
+}
+
+/*-----------------------------------
+    bill.php 
+------------------------------------*/
+#customerlist{
+    margin: 10px;
+}
+
+#customerlist select{
+    font-size: 1.4em;
+}
+
+#CustomerID{
+    font-size: 1.2em;
+}
